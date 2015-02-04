@@ -1,0 +1,29 @@
+{
+  "name": "ins0/zf2-analytics",
+  "type": "library",
+  "license": "MIT",
+  "description": "ZF2 module for interacting with the Google-Measurement-PHP-Client library",
+  "keywords": [
+    "zf2",
+    "google",
+    "analytics",
+    "measurement",
+    "client"
+  ],
+  "homepage": "http://www.racecore.de",
+  "authors": [
+    {
+      "name": "Marco Rieger",
+      "email": "rieger@racecore.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "ins0/google-measurement-php-client": "2.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zf2Analytics\\": "src/"
+    }
+  }
+}
